@@ -1,32 +1,8 @@
-# Job Board Landing Page
+# React + Vite
 
-A modern, responsive landing page for job advertising services, built with React and shadcn/ui components.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Dynamic pricing cards for different ad packages
-- Responsive design optimized for all devices
-- Integrated contact form with formspree.io
-- Interactive UI components with real-time feedback
-- Professional styling with Tailwind CSS
-
-## Tech Stack
-
-- React
-- Tailwind CSS
-- shadcn/ui components
-- Lucide Icons
-- Formspree integration
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Configure your Formspree ID in the form component
-4. Run the development server: `npm run dev`
-
-## Project Structure
-
-- `/components` - UI components
-- `/public` - Static assets
-- `/styles` - Tailwind configurations
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
